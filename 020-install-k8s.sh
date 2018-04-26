@@ -22,12 +22,12 @@ if [ -f $CACHE_FILE ]; then
 fi
 cd ~/apps
 git clone https://github.com/kubernetes-incubator/kubespray.git upstream-kubespray && cd upstream-kubespray
-git checkout -b v2.4.0 tags/v2.4.0
+git checkout -b v2.5.0 tags/v2.5.0
 pip install -r requirements.txt
 
 cd ~/apps
 git clone https://github.com/sktelecom-oslab/taco-kubespray.git && cd taco-kubespray
-git checkout -b v2.4.0 tags/v2.4.0
+git checkout -b v2.5.0 tags/v2.5.0
 
 cd ~/apps
 cp -R upstream-kubespray kubespray && cp -R taco-kubespray/* kubespray/. && cd kubespray

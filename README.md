@@ -4,7 +4,7 @@
 
 This set of scripts let anyone install TACO AIO (All-In-One) on a single machine.
 
-* Kubernetes v1.9.2
+* Kubernetes v1.10.0
 * Helm v2.8.2
 * OpenStack Ocata release
 * Ceph Luminous Version 
